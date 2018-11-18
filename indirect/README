@@ -1,0 +1,1 @@
+for (( i=0; i < 100000; ++i )); do echo -n "0123456789"; done > LONGLINE.out
