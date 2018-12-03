@@ -7,7 +7,7 @@ import (
 
 func readLine(r *bufio.Reader) (s string, err error) {
 	for {
-		line, isPrefix, err := r.ReadLine();
+		line, isPrefix, err := r.ReadLine()
 		if err != nil {
 			return "", err
 		}
